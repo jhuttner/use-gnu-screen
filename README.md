@@ -2,26 +2,26 @@
 
 ## Commands from a terminal on your remote server:
 
-  screen -s <name of screen>  # start new screen
-  screen -ls          # list current screens
-  screen -D -RR       # reattach here and now
-  screen -r <pid from screen -ls command>   # reattach to screen by pid
+    screen -s <name of screen>  # start new screen
+    screen -ls          # list current screens
+    screen -D -RR       # reattach here and now
+    screen -r <pid from screen -ls command>   # reattach to screen by pid
 
 ## Commands in screen:
 
-  C-a = Control + a
+    C-a = Control + a
 
-  C-a c     # Create a new window
-  C-a A     # Rename the current window
-  C-a k     # Kill a window
-  C-a C-a   # Go back to the window you were previously in
-  C-a n     # Go to next window
-  C-a p     # Go to previous window
-  C-a a     # Go to start of command line
+    C-a c     # Create a new window
+    C-a A     # Rename the current window
+    C-a k     # Kill a window
+    C-a C-a   # Go back to the window you were previously in
+    C-a n     # Go to next window
+    C-a p     # Go to previous window
+    C-a a     # Go to start of command line
 
-  C-a :number <number>  # Move current window to index <number>
-  C-a <doublequotes>    # List all windows
-  C-a <singlequote>     # Give prompt for name or number of window
+    C-a :number <number>  # Move current window to index <number>
+    C-a <doublequotes>    # List all windows
+    C-a <singlequote>     # Give prompt for name or number of window
 
 ## My method: 
 I just use one screen with a slew of windows, so when I log in to my dev box it's just *screen -D -RR* and I am back where I left off.  
