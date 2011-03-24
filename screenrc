@@ -1,0 +1,56 @@
+### adjusted from example /usr/share/doc/screen/screenrc
+# no annoying audible bell, please
+vbell on
+nethack on 
+vbell_msg ""
+# detach on hangup
+autodetach on
+# don't display the copyright page
+startup_message off
+# emulate .logout message
+pow_detach_msg "Screen session of \$LOGNAME \$:cr:\$:nl:ended."
+# make the shell in every window a login shell
+# for keychain
+shell -$SHELL
+# set every new windows hardstatus line to somenthing descriptive
+#defhstatus "screen: ^En (^Et)"
+defscrollback 1200
+# don't kill window after the process died
+##zombie "^["
+# enable support for the "alternate screen" capability in all windows
+#altscreen on
+msgminwait 3
+
+hardstatus alwayslastline "%{.cb}%-W%{.rW}%50L> %n %t%{-}%+W%L<%-37=%{+b}%{.bc} %D %Y-%m-%d %{.bY}%c%{-b} %{.bc}%l "
+# blue on cyan.............^^^^^^
+# windowlist up to current.......^^^
+# brightwhite on red................^^^^^^
+# point to position @ 50% avail area......^^^^^ (L = if trunc'ed, prefix -W with '...')
+# literal space................................^
+# current window number & title.................^^.^^
+# literal space......................................^
+# undo last color change..............................^^^^
+# windowlist after current................................^^^
+# mark end of available area.................................^^^ (L = if trunc'ed, append +W with '...')
+# anchor everything after 38 chars from right margin............^^^^^ ('=' = anchor, '-' = rmargin)
+# bold on............................................................^^^^^
+# cyan on blue............................................................^^^^^^
+# Sat 2006-10-28.................................................................^^^^^^^^^^^
+# brightyellow on blue.......................................................................^^^^^^
+# HH:MM............................................................................................^^
+# bold off...........................................................................................^^^^^
+# cyan on blue.............................................................................................^^^^^^
+# current system load............................................................................................^^
+# literal space....................................................................................................^
+
+
+## To have screen set up windows for you each time you create a new screen:
+
+#chdir $HOME 
+#screen -t 'mysql' 1 
+#stuff "mysql -u root\15 "
+
+#chdir $HOME
+#screen -t 'vim' 2 
+#stuff "ls \15 " 
+
