@@ -1,6 +1,6 @@
 # GNU SCREEN ----- awwww yeahhh!
 
-## Commands from a terminal on your remote server:
+## Commands from Terminal:
 
     screen -s <name of screen>  # start new screen
     screen -ls                  # list current screens
