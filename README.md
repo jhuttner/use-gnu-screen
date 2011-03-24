@@ -3,10 +3,10 @@
 ## Commands from a terminal on your remote server:
 
 	screen -s <name of screen>	# start new screen
-	screen -ls 									# list current screens
-	screen -D -RR 							# reattach here and now
+	screen -ls									# list current screens
+	screen -D -RR								# reattach here and now
 
-	screen -r <pid from screen -ls command>			# reattach to screen by pid
+	screen -r <pid from screen -ls command>		# reattach to screen by pid
 
 
 ## Commands in screen:
@@ -25,6 +25,7 @@
 
 ## My method: 
 I just use one screen with a slew of windows, so when I log in to my dev box it's just screen -D -RR and I am back where I left off.  
+
 If you have the VPN running then from Mac Terminal you can do this 'ssh dev -t screen -D -RR' where dev is the SSH alias of your remote server.  Booyakasha.
 
 Another handy trick is to remap Caps Lock to Control, which can be done in system preferences on your Mac.  This makes the C-a gesture a lot faster.
