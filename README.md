@@ -11,17 +11,17 @@
 
 	C-a = Control + a
 
-	C-a c		# Create a new window
-	C-a A		# Rename the current window
-	C-a k		# Kill a window
+	C-a c			# Create a new window
+	C-a A			# Rename the current window
+	C-a k			# Kill a window
 	C-a C-a		# Go back to the window you were previously in
-	C-a n		# Go to next window
-	C-a p		# Go to previous window
-	C-a a		# Go to start of command line
+	C-a n			# Go to next window
+	C-a p			# Go to previous window
+	C-a a			# Go to start of command line
 
 	C-a :number <number>	# Move current window to index <number>
-	C-a <doublequotes> 		# List all windows
-	C-a <singlequote> 		# Give prompt for name or number of window
+	C-a <doublequotes>		# List all windows
+	C-a <singlequote>			# Give prompt for name or number of window
 
 ## My method: 
 I just use one screen with a slew of windows, so when I log in to my dev box it's just *screen -D -RR* and I am back where I left off.  
@@ -30,5 +30,5 @@ If you have the VPN running then from Mac Terminal you can do *ssh dev -t screen
 
 Another handy trick is to remap Caps Lock to Control, which can be done in system preferences on your Mac.  This makes the *C-a* gesture a lot faster.
 
-## How to use SSH Agent and Screen
+## How to use SSH Agent and GNU Screen
 Read [Managing SSH Sockets in GNU Screen](http://techblog.appnexus.com/?p=78)
