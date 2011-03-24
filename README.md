@@ -19,8 +19,8 @@
 	C-a a		# Go to start of command line
 
 	C-a :number <number>	# Move current window to index <number>
-	C-a <doublequotes>		# List all windows
-	C-a <singlequote>			# Give prompt for name or number of window
+	C-a <doublequotes> 		# List all windows
+	C-a <singlequote> 		# Give prompt for name or number of window
 
 ## My method: 
 I just use one screen with a slew of windows, so when I log in to my dev box it's just *screen -D -RR* and I am back where I left off.  
