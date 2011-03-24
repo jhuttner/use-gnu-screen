@@ -3,8 +3,8 @@
 ## Commands from a terminal on your remote server:
 
 	screen -s <name of screen>	# start new screen
-	screen -ls 				# list current screens
-	screen -D -RR			# reattach here and now
+	screen -ls 					# list current screens
+	screen -D -RR				# reattach here and now
 	screen -r <pid from screen -ls command>		# reattach to screen by pid
 
 ## Commands in screen:
