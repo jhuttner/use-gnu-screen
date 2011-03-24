@@ -14,6 +14,7 @@
 	C-a c		# Create a new window
 	C-a A		# Rename the current window
 	C-a k		# Kill a window
+	C-a C-a	# Go back to the window you were previously in
 	C-a n		# Go to next window
 	C-a p		# Go to previous window
 	C-a a		# Go to start of command line
