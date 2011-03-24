@@ -30,5 +30,5 @@ If you have the VPN running then from Mac Terminal you can do *ssh dev -t screen
 
 Another handy trick is to remap Caps Lock to Control, which can be done in system preferences on your Mac.  This makes the *C-a* gesture a lot faster.
 
-## How to use SSH Agent and GNU Screen
+## How to use SSH Agent with GNU Screen
 Read [Managing SSH Sockets in GNU Screen](http://techblog.appnexus.com/?p=78)
