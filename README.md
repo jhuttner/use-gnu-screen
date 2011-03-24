@@ -22,8 +22,8 @@
 	C-a <doublequotes> 		# List all windows
 
 ## My method: 
-I just use one screen with a slew of windows, so when I log in to my dev box it's just screen -D -RR and I am back where I left off.  
+I just use one screen with a slew of windows, so when I log in to my dev box it's just *screen -D -RR* and I am back where I left off.  
 
-If you have the VPN running then from Mac Terminal you can do this 'ssh dev -t screen -D -RR' where dev is the SSH alias of your remote server.  Booyakasha.
+If you have the VPN running then from Mac Terminal you can do *ssh dev -t screen -D -RR* where *dev* is the SSH alias of your remote server.  Booyakasha.
 
-Another handy trick is to remap Caps Lock to Control, which can be done in system preferences on your Mac.  This makes the C-a gesture a lot faster.
+Another handy trick is to remap Caps Lock to Control, which can be done in system preferences on your Mac.  This makes the *C-a* gesture a lot faster.
